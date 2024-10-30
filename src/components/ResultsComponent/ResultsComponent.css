@@ -1,0 +1,10 @@
+.resultsContainer {
+    width: 90%;
+    border: 1px solid black;
+}
+
+@media all and (max-width : 1000px) {
+    .resultsContainer {
+        width: 95%;
+    }
+}

@@ -1,0 +1,36 @@
+.userInfos {
+    width: 10%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.userAvatar {
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.userLogin {
+    margin-top: 0;
+}
+
+
+@media all and (max-width : 1500px) {
+    .userInfos {
+        width: 15%;
+    }
+
+}
+
+@media all and (max-width : 1000px) {
+    .userInfos {
+        width: 20%;
+    }
+
+    .userLogin {
+        word-break: break-all;
+    }
+
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: #010409;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.App h1 {
+  text-align: center;
+}
+
+
+
+.errorMessage {
+  color: rgb(239, 78, 78);
+  margin-bottom: 3vh;
+}
+
+.searchBarContainer {
+  margin-top: 10px;
+  width: 80%;
+}
+
+.pageManagement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+  font-weight: bold;
+}
+
+.pageButton {
+  cursor: pointer;
+  font-size: 200%;
+}
+
+.pageIndexButton {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+.currentPage {
+  color: #194FB1;
+}
